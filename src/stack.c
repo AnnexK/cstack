@@ -96,6 +96,11 @@ void freeStack(struct stack *stk)
     free(stk);
 }
 
+void clearStack(struct stack *stk)
+{
+    stk->cur = 0;
+}
+
 void printStack(struct stack *stk)
 {
     stk->print(stk);

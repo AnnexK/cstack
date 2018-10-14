@@ -29,6 +29,8 @@ void printStack(struct stack *);
 
 void freeStack(struct stack *);
 
+void clearStack(struct stack *);
+
 void genericPrintFun(struct stack *);
 
 #endif
